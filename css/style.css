@@ -105,13 +105,17 @@ main{
     color: var(--secondary-color);
     padding-bottom: 30px;
 }
-.card, .double  p, a{
+.card, .double  p{
     font-weight: bold;
     text-decoration: none;
     padding-bottom: 30px;
     line-height: 2rem;
 }
-.card .double, i{
+.card, .double  a{
+    font-weight: bold;
+    text-decoration: none;
+}
+.card i{
     padding-bottom: 30px;
 }
 .double-text span{
@@ -122,8 +126,37 @@ main{
     gap:20px;
 }
 /* #Planning */
+.wrapped-left, .wrapped-right{
+    padding: 40px 40px;
+}
 .plans img{
     width: 100%;
+}
+.white-bg{
+    background-color: var(--light-color);
+    border-radius: 10%;
+}
+.wrapped-left h3{
+    color: var(--light-color);
+    padding: 50px 0;
+    font-size: 2rem;
+}
+.wrapped-left p{
+    color: var(--light-color);
+    line-height: 1.8rem;
+}
+
+.wrapped-right h3{
+    font-size: 1.5rem;
+    padding-top: 30px;
+}
+.wrapped-right p{
+    line-height: 1.8rem;
+    font-style: italic;
+    padding: 30px 30px;
+}
+.wrapped-right a{
+    background-color: var(--primary-color);
 }
 /* Footer */
 
