@@ -67,6 +67,7 @@ header nav a{
 }
 nav i{
     font-size: 2.5rem;
+    padding-bottom: 0;
 }
 /* Main */
 main{
@@ -80,21 +81,30 @@ main{
     border-radius: 20px;
     width: 100%;
     padding: 40px 40px 0 40px;
-
+    margin-bottom: 30px;
+}
+.card{
+    text-align: center;
+}
+.card i{
+    font-size: 5rem;
+    color: var(--secondary-color);
 }
 .double-img img{
     width: 100%;
     padding-top: 50px;
 }
-.card, .double h2{
+.card .double, h2{
     color: var(--secondary-color);
     padding-bottom: 30px;
 }
 .card, .double  p, a{
     font-weight: bold;
     text-decoration: none;
+    padding-bottom: 30px;
+    line-height: 2rem;
 }
-.card, .double p{
+.card .double, i{
     padding-bottom: 30px;
 }
 .double-text span{
@@ -104,6 +114,7 @@ main{
 #intro .container{
     gap:20px;
 }
+
 /* Footer */
 
 footer{
@@ -134,9 +145,13 @@ footer{
     .double{
         width: calc(((100% / 3) - 5px ) * 2);
         flex-flow: row nowrap;
+        margin-bottom: 0;
     }
     .card{
         width: calc((100% / 3) - 20px);
+        margin-bottom: 0;
     }
-    
+    .double-img{
+        width: 50%;
+    }
 }
