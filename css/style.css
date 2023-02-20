@@ -32,9 +32,10 @@ body{
     color: var(--light-color);
 }
 .button{
-    border-radius: 20px;
-    padding: 5px 10px;
+    border-radius: 30px;
+    padding: 1rem 3rem;
 }
+
 /* Header */
 
 header{
@@ -74,10 +75,34 @@ main{
 .even{
     background-color: var(--primary-color);
 }
-.card{
+.card, .double{
     background-color: var(--bg-card);
     border-radius: 20px;
-    margin-bottom: 10px;
+    width: 100%;
+    padding: 40px 40px 0 40px;
+
+}
+.double-img img{
+    width: 100%;
+    padding-top: 50px;
+}
+.card, .double h2{
+    color: var(--secondary-color);
+    padding-bottom: 30px;
+}
+.card, .double  p, a{
+    font-weight: bold;
+    text-decoration: none;
+}
+.card, .double p{
+    padding-bottom: 30px;
+}
+.double-text span{
+    text-align: center;
+}
+
+#intro .container{
+    gap:20px;
 }
 /* Footer */
 
@@ -88,6 +113,7 @@ footer{
 .container{
     margin: 0 auto;
     padding: 15px;
+
 }
 
 /* Mediaquery */
@@ -102,6 +128,15 @@ footer{
     }
     .d-flex{
         display: flex;
+        flex-flow: row wrap;
         justify-content: space-between;
     }
+    .double{
+        width: calc(((100% / 3) - 5px ) * 2);
+        flex-flow: row nowrap;
+    }
+    .card{
+        width: calc((100% / 3) - 20px);
+    }
+    
 }
