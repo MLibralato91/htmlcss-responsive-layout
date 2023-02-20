@@ -23,8 +23,18 @@ body{
 
 
 /* Utilities */
-
-
+.btn-white{
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+.btn-blue{
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+}
+.button{
+    border-radius: 20px;
+    padding: 5px 10px;
+}
 /* Header */
 
 header{
@@ -47,10 +57,12 @@ ul{
 header nav ul{
     display: none;
 }
+header nav li{
+    padding-left: 40px;
+}
 header nav a{
     color: var(--light-color);
     text-decoration: none;
-    padding-left: 30px;
 }
 nav i{
     font-size: 2.5rem;
