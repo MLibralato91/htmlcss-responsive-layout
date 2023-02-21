@@ -99,9 +99,11 @@ main{
     padding: 40px 40px 0 40px;
 }
 /* #Intro */
-#intro .card, #intro .double{
-    margin-bottom: 30px;
+#intro .container{
+    gap:20px;
+    padding: 40px 0;
 }
+
 .card{
     padding-bottom: 40px;
 }
@@ -200,6 +202,10 @@ main{
 #features .card{
     margin-bottom: 40px;
 }
+#features .container{
+    gap:20px;
+    padding: 40px 0;
+}
 /* Footer */
 
 footer{
@@ -219,15 +225,16 @@ footer{
     .d-flex{
         display: flex;
         flex-flow: row wrap;
+        justify-content: space-between;
         
     }
     .double{
-        width: calc(((100% / 3) - 10px ) * 2);
+        width: calc(((100% / 3) - 5px ) * 2);
         flex-flow: row nowrap;
         margin-bottom: 0;
     }
     .card{
-        width: calc((100% / 3) - 20px);
+        width: calc((100% / 3) - 15px);
         margin-bottom: 0;
     }
    
@@ -242,7 +249,10 @@ footer{
     .box-text{
         width:60%;
     }
-
+    #features .card{
+        width: calc((100% / 2) - 10px);
+        margin-bottom: 0;
+    }
 }
 @media screen and (min-width: 992px) {
 
@@ -273,6 +283,10 @@ footer{
         display: flex;
         flex-flow: row nowrap;
         align-items: end;
+    }
+    #features .card{
+        width: calc((100% / 3) - 20px);
+        margin-bottom: 0;
     }
 }
 @media screen and (min-width: 1200px){
