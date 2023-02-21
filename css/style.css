@@ -97,15 +97,17 @@ main{
     border-radius: 20px;
     width: 100%;
     padding: 40px 40px 0 40px;
+    margin: 0 0 20px 0;
+    
 }
 /* #Intro */
 #intro .container{
     gap:20px;
-    padding: 40px 0;
+    padding: 20px;
 }
 
 .card{
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 #intro .card i{
     font-size: 5rem;
@@ -200,11 +202,11 @@ main{
 }
 /* Features */
 #features .card{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 #features .container{
     gap:20px;
-    padding: 40px 0;
+    padding: 20px;
 }
 /* Footer */
 
@@ -251,6 +253,9 @@ footer{
     }
     #features .card{
         width: calc((100% / 2) - 10px);
+   
+    }
+    .card, .double{
         margin-bottom: 0;
     }
 }
