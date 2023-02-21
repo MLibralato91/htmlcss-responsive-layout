@@ -26,18 +26,21 @@ body{
 .btn-white{
     background-color: var(--light-color);
     color: var(--dark-color);
+    padding: 1rem 3rem;
 }
 .btn-blue{
     background-color: var(--secondary-color);
     color: var(--light-color);
+    padding: 1rem 3rem;
 }
 .btn-violet{
     background-color: var(--primary-color);
     color: var(--light-color);
+    padding: 0.3rem 2rem;
 }
 .button{
     border-radius: 30px;
-    padding: 1rem 3rem;
+    text-decoration: none;
 }
 .container{
     margin: 0 auto;
@@ -257,6 +260,16 @@ footer{
     }
     .card, .double{
         margin-bottom: 0;
+    }
+    #about-us .text-about{
+        width: 50%;
+        
+    }
+    #about-us .user-about{
+        width: 30%;
+    }
+    #about-us .container{
+        justify-content: space-around ;
     }
 }
 @media screen and (min-width: 992px) {
