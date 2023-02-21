@@ -38,10 +38,13 @@ body{
 .container{
     margin: 0 auto;
     padding: 15px;
-    max-width: 1200px;
+    max-width: 620px;
 }
 .center{
     text-align: center;
+}
+section{
+    scroll-margin-top:80px;
 }
 /* Header */
 
@@ -91,6 +94,7 @@ main{
     margin-bottom: 30px;
 }
 
+
 .card i{
     font-size: 5rem;
     color: var(--secondary-color);
@@ -99,17 +103,17 @@ main{
     width: 100%;
     padding-top: 50px;
 }
-.card .double, h2{
+.double h2, .card h2{
     color: var(--secondary-color);
     padding-bottom: 30px;
 }
-.card, .double  p{
+.double  p, .card p{
     font-weight: bold;
     text-decoration: none;
     padding-bottom: 30px;
     line-height: 2rem;
 }
-.card, .double  a{
+.double a, .card a{
     font-weight: bold;
     text-decoration: none;
 }
@@ -158,9 +162,6 @@ main{
     background-color: var(--primary-color);
     padding: 25px;
     border-radius: 50%;
-    color: ;
-    
-
 }
 
 /* Footer */
@@ -175,16 +176,14 @@ footer{
 
 @media screen and (min-width: 768px) {
 
-    header nav ul{
-    display: unset;
+    .container{
+        max-width: 750px;
     }
-    header nav i:first-of-type{
-       display: none;
-    }
+    
     .d-flex{
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-between;
+        
     }
     .double{
         width: calc(((100% / 3) - 5px ) * 2);
@@ -202,8 +201,17 @@ footer{
         font-size: 4rem;
     }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
 
+    header nav ul{
+    display: flex;
+    }
+    header nav i:first-of-type{
+           display: none;
+    }
+    .container{
+        max-width: 950px;
+    }
     .double{
         display: flex;
     }
