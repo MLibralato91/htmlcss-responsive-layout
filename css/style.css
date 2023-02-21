@@ -18,7 +18,7 @@
 body{
     font-family: 'PT Sans', sans-serif;
     background-color: var(--light-color);
-    scroll-behavior: smooth;
+
 }
 
 
@@ -300,8 +300,14 @@ footer{
     background-color: var(--dark-color);
     color: var(--light-color);
 }
-
-
+footer p{
+    line-height: normal;
+    padding: 30px 0;
+}
+footer a{
+    color: var(--primary-color);
+    text-decoration: underline;
+}
 /* Mediaquery */
 
 @media screen and (min-width: 768px) {
