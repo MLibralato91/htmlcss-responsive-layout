@@ -219,6 +219,27 @@ main{
     gap:20px;
     padding: 20px;
 }
+#features h1{
+    font-size: 2.5rem;
+    padding: 20px 0;
+    color: var(--light-color);
+}
+#features .card h2,
+#features .card h3,
+#features .card p{
+    padding-bottom: 20px;
+}
+#features .card h2,
+#features .card h3{
+    color: var(--primary-color);
+}
+#features .card h2{
+    font-size: 3.5rem;
+
+}
+#features .card h3{
+    font-size: 1.5rem;
+}
 /* Footer */
 
 footer{
