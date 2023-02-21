@@ -31,6 +31,10 @@ body{
     background-color: var(--secondary-color);
     color: var(--light-color);
 }
+.btn-violet{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
 .button{
     border-radius: 30px;
     padding: 1rem 3rem;
@@ -97,9 +101,10 @@ main{
 /* #Intro */
 #intro .card, #intro .double{
     margin-bottom: 30px;
-    
 }
-
+.card{
+    padding-bottom: 40px;
+}
 #intro .card i{
     font-size: 5rem;
     color: var(--secondary-color);
@@ -191,7 +196,10 @@ main{
     height: 100%;
     object-fit: cover;
 }
-
+/* Features */
+#features .card{
+    margin-bottom: 40px;
+}
 /* Footer */
 
 footer{
