@@ -190,13 +190,14 @@ main{
     padding: 40px;
     margin: 40px 0;
 }
-.box-img{
+.box-img, .img-about{
     margin: 0 auto;
     width: 200px;
     height: 200px;
     border-radius: 50%;
+}
+.box-img{
     overflow: hidden;
-
 }
 .box-img img{
     width: 100%;
@@ -262,6 +263,9 @@ main{
 }
 #about-us h3{
     font-size: 1.5rem;
+}
+.text-about p{
+    padding-bottom: 30px;
 }
 /* Footer */
 
