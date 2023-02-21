@@ -74,8 +74,6 @@ header nav a{
 }
 nav i{
     font-size: 2.5rem;
-    padding-bottom: 0;
-    padding-top: 30px;
 }
 /* Main */
 main{
@@ -134,7 +132,8 @@ main{
 }
 .white-bg{
     background-color: var(--light-color);
-    border-radius: 10%;
+    border-radius: 50px;
+    padding-bottom: 30px;
 }
 .wrapped-left h3{
     color: var(--light-color);
@@ -155,9 +154,15 @@ main{
     font-style: italic;
     padding: 30px 30px;
 }
-.wrapped-right a{
+.wrapped-right i{
     background-color: var(--primary-color);
+    padding: 25px;
+    border-radius: 50%;
+    color: ;
+    
+
 }
+
 /* Footer */
 
 footer{
@@ -193,6 +198,7 @@ footer{
     .double-img{
         width: 50%;
     }
+   
 }
 @media screen and (min-width: 1200px) {
 
@@ -201,5 +207,10 @@ footer{
     }
     .double-text{
         width: 50%;
+    }
+    #planning .container{
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: end;
     }
 }
