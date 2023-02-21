@@ -219,7 +219,11 @@ footer{
     }
     .double-img{
         width:50%;
- 
+        position: relative;
+    }
+    .double-img img{
+        position: absolute;
+        bottom: 0;
     }
     .double-text{
         width:50%;
