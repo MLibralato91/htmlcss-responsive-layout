@@ -88,17 +88,19 @@ main{
 .even{
     background-color: var(--primary-color);
 }
-/* #Intro */
 .card, .double{
     background-color: var(--bg-card);
     border-radius: 20px;
     width: 100%;
     padding: 40px 40px 0 40px;
+}
+/* #Intro */
+#intro .card, #intro .double{
     margin-bottom: 30px;
+    
 }
 
-
-.card i{
+#intro .card i{
     font-size: 5rem;
     color: var(--secondary-color);
 }
@@ -110,20 +112,20 @@ main{
     display: block;
 
 }
-.double h2, .card h2{
+#intro .double h2, #intro .card h2{
     color: var(--secondary-color);
     padding-bottom: 30px;
 }
-.double  p, .card p{
+#intro .double  p, #intro .card p{
     font-weight: bold;
     text-decoration: none;
     padding-bottom: 30px;
 }
-.double a, .card a{
+#intro .double a, #intro .card a{
     font-weight: bold;
     text-decoration: none;
 }
-.card i{
+#intro .card i{
     padding-bottom: 30px;
 }
 .double-text span{
