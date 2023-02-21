@@ -56,6 +56,9 @@ section{
 p{
     line-height: 2rem;
 }
+a{
+    text-decoration: none;
+}
 /* Header */
 
 header{
@@ -135,7 +138,7 @@ main{
 }
 #intro .double a, #intro .card a{
     font-weight: bold;
-    text-decoration: none;
+
 }
 #intro .card i{
     padding-bottom: 30px;
@@ -267,6 +270,30 @@ main{
 .text-about p{
     padding-bottom: 30px;
 }
+
+/* Call to action */
+
+#call-to-action{
+    color: var(--light-color);
+    padding: 30px 0;
+}
+#call-to-action h3{
+    font-size: 3.5rem;
+    color: var(--contrast-color);
+    padding-top: 30px;
+}
+#call-to-action p{
+    font-size: 0.8rem;
+    padding: 30px 0;
+}
+#call-to-action .btn-white{
+    color: var(--primary-color);
+}
+#call-to-action p a{
+    color: var(--light-color);
+    text-decoration: underline;
+}
+
 /* Footer */
 
 footer{
@@ -328,10 +355,10 @@ footer{
         justify-content: space-around ;
     }
     #call-to-action .container{
-        width: 70%;
+        width: 60%;
     }
     footer .container{
-        width: 70%;
+        width: 60%;
     }
 }
 @media screen and (min-width: 992px) {
@@ -375,5 +402,11 @@ footer{
     }
     #about-us .user-about{
         width: 20%;
+    }
+    #call-to-action .container{
+        width: 40%;
+    }
+    footer .container{
+        width: 40%;
     }
 }
