@@ -271,6 +271,12 @@ footer{
     #about-us .container{
         justify-content: space-around ;
     }
+    #call-to-action .container{
+        width: 70%;
+    }
+    footer .container{
+        width: 70%;
+    }
 }
 @media screen and (min-width: 992px) {
 
